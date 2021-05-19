@@ -47,6 +47,9 @@ databases:
 - name: db
   engine: PG
   version: "12"
+- name: redis
+  engine: REDIS
+  version: "6"
 # Or bring an existing DB:
 # - name: db
 #   production: true
